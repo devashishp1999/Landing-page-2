@@ -1,0 +1,32 @@
+.benefit {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem auto;
+  align-items: stretch;
+}
+
+.b {
+  max-width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  text-align: center;
+}
+
+.b-img {
+  background-color: var(--theme-orange);
+  width: 80px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+@media only screen and (min-width: 576px) {
+  .b-img {
+    width: 100px;
+  }
+}

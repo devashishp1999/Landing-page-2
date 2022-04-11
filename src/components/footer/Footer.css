@@ -1,0 +1,103 @@
+footer {
+  background-color: rgb(29, 34, 30);
+  color: #fff;
+}
+
+footer a {
+  all: unset;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-top: 0.5rem;
+}
+
+footer > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+footer > .container > * {
+  flex: 1;
+}
+
+footer .logo {
+  margin: 0 auto;
+}
+
+.logo-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.brands {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* 
+ */
+
+/* Copyright Section  */
+
+.copyr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  color: black;
+  padding: 1.5rem 0 !important;
+}
+
+.copyr p {
+  min-width: fit-content;
+}
+
+.copyr f-img {
+  width: min-content;
+  height: min-content;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  footer > .container {
+    flex-direction: row;
+    text-align: left;
+    gap: 3rem;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+
+  .logo-sec {
+    flex: 2 !important;
+  }
+
+  footer .logo {
+    margin: initial;
+  }
+
+  .brands {
+    justify-content: flex-start;
+  }
+
+  .footer li {
+    font-size: 0.9rem !important;
+  }
+}

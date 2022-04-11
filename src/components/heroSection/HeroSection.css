@@ -1,0 +1,83 @@
+.hero-container {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-image: url(../../../public/images/slider-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload {
+  background-color: #fff;
+  padding: 0.15rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  justify-content: space-between;
+}
+
+.upload-btn {
+  background-color: var(--theme-orange) !important;
+  border-radius: 50px !important;
+  color: #fff !important;
+  padding: 0.7rem 1rem !important;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+}
+
+.input::placeholder {
+  font-size: 0.8rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 576px) {
+  .hero-container {
+    aspect-ratio: 16/7;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .upload {
+    margin-top: 1rem;
+    padding: 0.2rem;
+  }
+  .input {
+    padding: 1rem 0;
+  }
+  .upload-btn {
+    padding: 1rem 1.1rem !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-content {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .hero-container {
+    aspect-ratio: 16/6;
+  }
+  .upload {
+    width: 40%;
+  }
+}

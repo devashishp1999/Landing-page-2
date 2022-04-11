@@ -1,0 +1,11 @@
+.logo {
+  padding: 0.5rem 2.5rem;
+  border-radius: 20px 0;
+  color: #fff;
+  background-color: var(--theme-orange);
+  width: fit-content;
+}
+
+.btn-nav {
+  background-color: var(--theme-orange);
+}

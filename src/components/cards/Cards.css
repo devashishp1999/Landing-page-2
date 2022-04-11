@@ -1,0 +1,64 @@
+.cards-c > * {
+  text-align: center;
+}
+
+.cards-c {
+  margin: 2rem auto;
+}
+
+.hrs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+}
+.hrs hr {
+  background-color: #ef804f;
+  border: none;
+  height: 2px;
+  flex: 1;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.c {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: left;
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px #00000050;
+  width: 46%;
+}
+
+.c img {
+  width: 35px;
+  height: 35px;
+}
+
+.c p {
+  font-weight: 600;
+}
+
+.c p span {
+  font-weight: 400;
+  font-size: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  .cards-c {
+    margin: 4rem auto;
+  }
+
+  .c {
+    width: 23%;
+  }
+}
